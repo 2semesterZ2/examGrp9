@@ -7,12 +7,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   </head>
   <body>
-  <div class="container-fluid text white">
-    <div class="jumbotron bg-info text-center">
-      <h1 class="display-1">Under Construction</h1>
-      <h2 class="text-muted">Still working on the research</h2>
-      <p>much more cool stuff coming soon</p>
+  <div class="container-fluid">
+    <div class="jumbotron jumobtron-fluid bg-info text-white">
+      <div class="container text-sm-center pt-5">
+      <h1 class="display-3">Under Construction</h1>
+      <h2>Still working on the research</h2>
+      <p class="lead">much more cool stuff coming soon</p>
     </div>
   </div>
+</div>
   </body>
 </html>
