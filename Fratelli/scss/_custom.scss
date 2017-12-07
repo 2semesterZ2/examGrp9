@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Bree+Serif');
+
+$hero-height: 90vh;
+
+h1,h2,h3,h4,h5{
+  font-family: 'Bree Serif', serif;
+}
+p, a,{
+}
+.max-width{
+
+  max-width: 800px;
+}
+.hero-section {
+//  background: url('../img/hero1.jpg') 50% no-repeat;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-size: cover;
+  height: $hero-height;
+  text-align: center;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  .hero-section-text {
+    color: $white;
+  }
+}
