@@ -5845,3 +5845,11 @@ p, a {
       justify-content: center; }
   .hero-section .hero-section-text {
     color: #fefefe; }
+
+li {
+  list-style-type: none; }
+
+.bgimg {
+  background: url("../img/hero1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh; }
