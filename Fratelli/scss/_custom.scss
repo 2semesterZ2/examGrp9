@@ -4,29 +4,47 @@ $hero-height: 90vh;
 
 h1,h2,h3,h4,h5{
   font-family: 'Bree Serif', serif;
+	color: black;
 }
+<<<<<<< HEAD
 p, a,{
   font-family: 'Alegreya', serif;
-}
-.max-width{
+=======
 
-  max-width: 800px;
+.menuimg{ 
+ 
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	height:100vh; 
 }
-.hero-section {
-//  background: url('../img/hero1.jpg') 50% no-repeat;
-  background-color: rgba(0, 0, 0, 0.6);
-  background-size: cover;
-  height: $hero-height;
-  text-align: center;
-  display: flex;
 
-  align-items: center;
-  justify-content: center;
 
-  .hero-section-text {
-    color: $white;
-  }
+.background{ background-color:#D3D3D3;
+>>>>>>> c7c63e07b9ae71591a85843af776e01282e45e2a
 }
+.thumbnaid {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border: solid 4px #fefefe;
+  border-radius: 0;
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  line-height: 0; }
+
+.bro{
+	margin: auto;
+    width: 100%;
+    padding: 10px;
+	
+}
+.logo {
+float: left;
+	
+}
+<<<<<<< HEAD
 li{
   list-style-type: none;
 }
@@ -39,3 +57,17 @@ li{
   background-size: cover;
   height: 100vh;
 }
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> c7c63e07b9ae71591a85843af776e01282e45e2a
