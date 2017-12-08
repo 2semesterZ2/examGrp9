@@ -5834,29 +5834,6 @@ h1, h2, h3, h4, h5 {
 .background {
   background-color: #D3D3D3; }
 
-<<<<<<< HEAD
-.hero-section {
-  background-color: rgba(0, 0, 0, 0.6);
-  background-size: cover;
-  height: 90vh;
-  text-align: center;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center; }
-  .hero-section .hero-section-text {
-    color: #fefefe; }
-
-li {
-  list-style-type: none; }
-
-.bgimg {
-  background: url("../img/hero1.jpg") no-repeat center center fixed;
-  background-size: cover;
-  height: 100vh; }
-=======
 .thumbnaid {
   display: inline-block;
   max-width: 100%;
@@ -5873,4 +5850,3 @@ li {
 
 .logo {
   float: left; }
->>>>>>> c7c63e07b9ae71591a85843af776e01282e45e2a
