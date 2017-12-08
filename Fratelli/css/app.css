@@ -5824,24 +5824,29 @@ a.thumbnail {
   animation-delay: 700ms !important; }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Bree Serif', serif; }
+  font-family: 'Bree Serif', serif;
+  color: black; }
 
-p, a {
-  font-family: 'Alegreya', serif; }
-
-.max-width {
-  max-width: 800px; }
-
-.hero-section {
-  background-color: rgba(0, 0, 0, 0.6);
+.menuimg {
   background-size: cover;
-  height: 90vh;
-  text-align: center;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center; }
-  .hero-section .hero-section-text {
-    color: #fefefe; }
+  height: 100vh; }
+
+.background {
+  background-color: #D3D3D3; }
+
+.thumbnaid {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border: solid 4px #fefefe;
+  border-radius: 0;
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  line-height: 0; }
+
+.bro {
+  margin: auto;
+  width: 100%;
+  padding: 10px; }
+
+.logo {
+  float: left; }
