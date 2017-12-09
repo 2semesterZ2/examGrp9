@@ -5878,3 +5878,6 @@ a.text-dark:focus, a.text-dark:hover {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/21/EverestfromKalarPatarcrop.JPG");
   background-size: cover;
   height: 90vh; }
+
+.top-title {
+  margin-top: 30vh; }

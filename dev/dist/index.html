@@ -5,53 +5,57 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="scss/app.css">
+  <link rel="stylesheet" href="/scss/app.css">
   <title>Home | Fratelli Pizzeria</title>
 </head>
 
 <body>
   <!-- navigation -->
 
-  <nav class="navbar navbar-fixed-top navbar-expand-md navbar-light bg-light">
+  <nav class="navbar navbar-fixed-top navbar-expand-md navbar-light bg-light sticky-top">
 
-    <a class="navbar-brand" href="#"><img width="60" height="60" src="img/logo-fratelli.png" alt=""></a>
+          <a class="navbar-brand" href="#"><img width="60" height="60" src="img/logo-fratelli.png" alt=""></a>
 
-      <button class="navbar-toggler order-12-sm" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
           <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar">
           <ul class="navbar-nav">
-            <li class="nav-item active ">
-                <a class="nav-link" href="index.html">Home</a>
+            <li class="nav-item mx-4">
+                <a class="nav-link active" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-4">
                 <a class="nav-link" href="menu.html">Menu</a>
             </li>
-              <li class="nav-item">
+              <li class="nav-item mx-4">
                   <a class="nav-link" href="events.html">Events</a>
               </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+              <li class="nav-item mx-4">
+                  <a class="nav-link" href="about.html">About</a>
               </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+              <li class="nav-item mx-4">
+                  <a class="nav-link" href="contact.html">Contact</a>
               </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Reservations</a>
+              <li class="nav-item mx-4">
+                  <a class="nav-link" href="reservations.html">Reservations</a>
               </li>
+              <a href="#">DK|</a>
+              <a href="#">EN</a>
           </ul>
       </div>
-      <a href="#">DK|</a>
-      <a href="#">EN</a>
-      <button type="button" class="btn btn-danger btn-lg order-1-sm" data-toggle="modal" data-target="#exampleModal">Order Now</button>
+
+      <button type="button" class="btn btn-danger btn-lg" data-glf-cuid="cd6801cb-200c-495d-9b31-66637e177162"
+     data-glf-ruid="ac4a6b17-c1a7-4cee-9d15-8f133982a3b3">Order Now</button>
+
   </nav>
+
   <!--Navigation -->
 
 <div class="container-fluid">
     <!--hero jumbotron -->
      <div class="jumbotron hero1 jumbotron-fluid bg-info text-white pt-5">
    <div class="container text-center pt-5 ">
-     <h1 class="display-3  ">Fratelli Pizzeria</h1>
+     <h1 class="display-3 top-title ">Fratelli Pizzeria</h1>
      <p class="lead">The best pizza in Aarhus</p>
      <div class="btn-group mt-4" role="group" aria-label="Callout Buttons">
 
@@ -78,9 +82,9 @@
 
    </div>
        <!-- Menu -->
-       <div class="jumbotron jumbotron-fluid bg-info text-white pt-5">
+       <div class="jumbotron jumbotron-fluid hero1  bg-info text-white pt-5">
      <div class="container text-center pt-5 fullheight">
-       <h1 class="display-3  ">Menu</h1>
+       <h1 class="display-3 top-title ">Menu</h1>
          <button type="button" class="btn-lg btn-success mx-auto my-4">
            <a href="menu.html" class=" text-white">See what's inside</a>
          </button>
@@ -97,7 +101,7 @@
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
        <div class="d-flex justify-content-center">
          <button type="button" class="btn-lg btn-success mx-auto my-4">
-           <a href="#" class=" text-white">Book a table</a>
+           <a href="reservations.html" class=" text-white">Book a table</a>
          </button>
        </div>
        </div>
@@ -176,7 +180,6 @@
      </div>
    </div>
  </div>
-     <!-- modal -->
      <!-- Optional JavaScript -->
      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

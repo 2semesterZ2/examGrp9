@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="scss/app.css">
-  <title>Contact Us | Fratelli Pizzeria</title>
+  <title>Reservations | Fratelli Pizzeria</title>
 </head>
 
 <body>
@@ -14,14 +14,14 @@
 
   <nav class="navbar navbar-fixed-top navbar-expand-md navbar-light bg-light sticky-top">
 
-    <a class="navbar-brand" href="#"><img width="60" height="60" src="img/logo-fratelli.png" alt=""></a>
+          <a class="navbar-brand" href="#"><img width="60" height="60" src="img/logo-fratelli.png" alt=""></a>
 
       <button class="navbar-toggler order-12-sm" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
           <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar">
           <ul class="navbar-nav">
-            <li class="nav-item mx-4 ">
+            <li class="nav-item mx-4">
                 <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item mx-4">
@@ -33,11 +33,11 @@
               <li class="nav-item mx-4">
                   <a class="nav-link" href="about.html">About</a>
               </li>
-              <li class="nav-item mx-4 active">
+              <li class="nav-item mx-4">
                   <a class="nav-link" href="contact.html">Contact</a>
               </li>
               <li class="nav-item mx-4">
-                  <a class="nav-link" href="reservations.html">Reservations</a>
+                  <a class="nav-link active" href="reservations.html">Reservations</a>
                 </li>
                 <a href="#">DK|</a>
                 <a href="#">EN</a>
@@ -46,52 +46,28 @@
 
       <button type="button" class="btn btn-danger btn-lg order-1-sm" data-glf-cuid="cd6801cb-200c-495d-9b31-66637e177162"
      data-glf-ruid="ac4a6b17-c1a7-4cee-9d15-8f133982a3b3">Order Now</button>
-  </nav>
-  <!--Navigation -->
 
+  </nav>
+    <!--hero -->
 <div class="container-fluid">
   <nav aria-label="breadcrumb" role="navigation">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="#">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Contact</li>
+    <li class="breadcrumb-item active" aria-current="page">Reservations</li>
   </ol>
 </nav>
-    <!--hero jumbotron -->
-     <div class="jumbotron hero1 jumbotron-fluid bg-info text-white pt-5">
-   <div class="container text-center pt-5 ">
-     <h1 class="display-3 top-title ">Contact us</h1>
-     <p class="lead">32184404</p>
-      <p>Tordenskjoldsgade 81</p>
-      <p>8200 Århus N</p>
-     <div class="btn-group mt-4" role="group" aria-label="Callout Buttons">
-
-
- </div>
-
-   </div>
- </div>
-
-
-       <!--/jumobtron-->
-   <div class="row justify-content-md-center" id="about">
-     <div class="col-lg-6 centered ">
-      <h3 class="mb-4 text-center">Our Location</h3>
-       <div class="d-flex justify-content-center">
-<img width="600" src="https://maps.googleapis.com/maps/api/staticmap?center=Aarhus,+Denmark&zoom=13&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0x00c820%7Clabel:1%7CAarhus,+Denmark" alt="Google Map of Aarhus, Denmark">
-
-       </div>
-       </div>
-       <div class="row justify-content-md-center">
-         <div class="col md-6 centered ">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-         </div>
-
-       </div>
+<h1>Hello,</h1>
+<p>We are Amir and Ali, two best friends since first grade passionate about Italian food and pizza. 34 years of friendship is the reason why we called our restaurant Fratelli (or brothers in Italian) .</p>
 
 
 
 
-   </div>
+    </div>
+
+</div>
+</div>
+
+
 
 
  <hr>
@@ -104,7 +80,7 @@
      <p>fratellipizza81@gmail.com</p>
      <p>tel:32184404</p>
    </div>
-   <div class="col-md-3 ">
+   <div class="col-md-4 ">
      <p><strong>Opening hours</strong></p>
      <p>mandag – onsdag 17:00-21:00</p>
      <p>torsdag – søndag 11:00-21:00</p>
@@ -118,25 +94,57 @@
      <div class="input-group">
        <input type="text" class="form-control" placeholder="Email">
        <span class="input-group-btn">
-         <button class="btn btn-primary" type="button">Sign up</button>
+         <button class="btn btn-success" type="button">Sign up</button>
        </span>
      </div>
    </div>
- </div>
-<!-- /signup form -->
+ </div><!-- /signup form -->
  <!--footer -->
-    <div class="row d-none d-md-block">
- <hr>
+    <div class="row py-3 bg-warning">
+
       <div class="col-md d-flex justify-content-center">
       <small>&copy; 2017 Fratelli Pizzeria &amp; Tomasiunas group</small>
       </div>
  </div>
-</div>
+
     </div><!-- /container -->
+    <!-- modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="foodordering" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-info text-white">
+        <h5 class="modal-title" id="foodordering">Food Ordering</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!--ordering form -->
+
+        <form>
+          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Notification:</strong> We have moved from just eat to the new ordering system, check it out!
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="glfbutton d-flex justify-content-center">
+ <span class="glf-button" data-glf-cuid="cd6801cb-200c-495d-9b31-66637e177162"
+data-glf-ruid="ac4a6b17-c1a7-4cee-9d15-8f133982a3b3" style="background-color: #008F00;"> See MENU & Order</span>
+</div>
+
+<script src="https://www.foodbooking.com/widget/js/ewm2.js" deferasync ></script>
+<p>You can order your favourite pizza to be delivered or picked up from the counter, either way you can do it here!</p>
+        <!--/ordering form -->
+
+
+      </div>
+    </div>
+  </div>
+</div>
 
      <!-- modal -->
      <!-- Optional JavaScript -->
-     <script src="https://www.foodbooking.com/widget/js/ewm2.js" deferasync ></script>
      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
