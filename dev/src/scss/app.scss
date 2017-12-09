@@ -1,1 +1,16 @@
 @import "bootstrap";
+.hero1{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/21/EverestfromKalarPatarcrop.JPG');
+background-size: cover;
+  height: 80vh;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: $green; }
+
+  .comingsoon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/21/EverestfromKalarPatarcrop.JPG');
+    background-size: cover;
+      height: 90vh;
+  }

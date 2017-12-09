@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/scss/app.css">
+  <title>Home | Fratelli Pizzeria</title>
+</head>
+
+<body>
+  <!-- navigation -->
+
+  <nav class="navbar navbar-fixed-top navbar-expand-md navbar-light bg-light">
+
+          <a class="navbar-brand" href="#"><img width="60" height="60" src="img/logo-fratelli.png" alt=""></a>
+
+      <button class="navbar-toggler order-12-sm" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="events.html">Events</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Reservations</a>
+              </li>
+          </ul>
+      </div>
+      <a href="#">DK|</a>
+      <a href="#">EN</a>
+      <button type="button" class="btn btn-danger btn-lg order-1-sm" data-toggle="modal" data-target="#exampleModal">Order Now</button>
+  </nav>
+    <!--hero -->
+<div class="container-fluid">
+<div class="jumbotron comingsoon jumbotron-fluid bg-info text-white pt-5 text-center ">
+
+<div class="row justify-content-center">
+  <div class="col-lg-4 ">
+    <h1 class="display-1">coming soon</h1>
+    <div class="col md-6">
+      <ul class="list-group text-dark">
+      <li class="list-group-item">??/??/???? - Make your own pizza</li>
+      <li class="list-group-item">??/??/???? - Mystery tasting</li>
+      <li class="list-group-item">??/??/???? - Pesto workshop</li>
+      <li class="list-group-item">??/??/???? - Ladies Night</li>
+      <li class="list-group-item">??/??/???? - Men's Night</li>
+    </ul>
+    <div class="d-flex justify-content-center">
+      <button type="button" class="btn-lg btn-success mx-auto my-4">
+        <a href="#" class=" text-white">Sign Up Now</a>
+      </button>
+    </div>
+    </div>
+
+</div>
+</div>
+
+</div>
+
+
+ <hr>
+ <div class="row p-4 bg-warning">
+   <div class="col-md-4">
+     <p><strong>Tordenskojdsgade</strong></p>
+
+     <p><strong>8200 Aarhus N</strong></p>
+     <hr>
+     <p>fratellipizza81@gmail.com</p>
+     <p>tel:32184404</p>
+   </div>
+   <div class="col-md-4 ">
+     <p><strong>Opening hours</strong></p>
+     <p>mandag – onsdag 17:00-21:00</p>
+     <p>torsdag – søndag 11:00-21:00</p>
+     <p><strong>Follow us on Social Media!</strong></p>
+     <p>Instagram</p>
+     <p>Facebook</p>
+   </div>
+   <div class="col-md-4 d-none d-md-block">
+     <p><strong>Sign Up to receive news from us!</strong></p>
+     <p>Sign up to receive information about latest events, news, offers at Fratelli's</p>
+     <div class="input-group">
+       <input type="text" class="form-control" placeholder="Email">
+       <span class="input-group-btn">
+         <button class="btn btn-success" type="button">Sign up</button>
+       </span>
+     </div>
+   </div>
+ </div><!-- /signup form -->
+ <!--footer -->
+    <div class="row py-3 bg-warning">
+
+      <div class="col-md d-flex justify-content-center">
+      <small>&copy; 2017 Fratelli Pizzeria &amp; Tomasiunas group</small>
+      </div>
+ </div>
+
+    </div><!-- /container -->
+    <!-- modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="foodordering" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-info text-white">
+        <h5 class="modal-title" id="foodordering">Food Ordering</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!--ordering form -->
+
+        <form>
+          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Notification:</strong> We have moved from just eat to the new ordering system, check it out!
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="glfbutton d-flex justify-content-center">
+ <span class="glf-button" data-glf-cuid="cd6801cb-200c-495d-9b31-66637e177162"
+data-glf-ruid="ac4a6b17-c1a7-4cee-9d15-8f133982a3b3" style="background-color: #008F00;"> See MENU & Order</span>
+</div>
+
+<script src="https://www.foodbooking.com/widget/js/ewm2.js" deferasync ></script>
+<p>You can order your favourite pizza to be delivered or picked up from the counter, either way you can do it here!</p>
+        <!--/ordering form -->
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+     <!-- modal -->
+     <!-- Optional JavaScript -->
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+   </body>
+ </html>
+</body>
+
+</html>

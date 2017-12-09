@@ -5864,3 +5864,17 @@ a.text-dark:focus, a.text-dark:hover {
 
 .invisible {
   visibility: hidden !important; }
+
+.hero1 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/21/EverestfromKalarPatarcrop.JPG");
+  background-size: cover;
+  height: 80vh; }
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #28a745; }
+
+.comingsoon {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/21/EverestfromKalarPatarcrop.JPG");
+  background-size: cover;
+  height: 90vh; }
