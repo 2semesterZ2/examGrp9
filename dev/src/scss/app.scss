@@ -1,20 +1,40 @@
 @import "bootstrap";
-.hero1{
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/21/EverestfromKalarPatarcrop.JPG');
-background-size: cover;
-  height: 80vh;
-}
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   background-color: $green; }
 
-  .comingsoon {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/21/EverestfromKalarPatarcrop.JPG');
+  .pizzeria {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/pizzeria.jpg');
     background-size: cover;
-      height: 90vh;
   }
+  .pizza{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/pizza.jpg');
+    background-size: cover;
+  }
+  .welcome{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/welcome.jpg');
+    background-size: cover;
+  }
+.menuen{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/menu.jpg');
+  background-size: cover;
+}
+.max-width{
+  max-width: 800px;
+}
 
-  .top-title {
-  margin-top: 30vh;
+.spacer{
+min-height: 80%;
+min-height:80vh;
+display: flex;
+align-items: center;
+}
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+footer{
+  background-color: #FB8C00;
 }
