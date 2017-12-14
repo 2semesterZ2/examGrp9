@@ -5866,8 +5866,7 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   background-color: #28a745; }
 
 .pizzeria {
@@ -5885,9 +5884,6 @@ a.text-dark:focus, a.text-dark:hover {
 .menuen {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/menu.jpg");
   background-size: cover; }
-
-.max-width {
-  max-width: 800px; }
 
 .spacer {
   min-height: 80%;
