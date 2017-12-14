@@ -34,7 +34,18 @@ align-items: center;
   margin-left: 0px;
   margin-right: 0px;
 }
-
+body{
+  background-color: #ffb74d;
+}
 footer{
-  background-color: #FB8C00;
+  background-color: #b71c1c;
+}
+@import url('https://fonts.googleapis.com/css?family=Lato|Maven+Pro|Patua+One|Prata');
+
+h1, h2, h3, h4, h5, h6{
+font-family: 'Prata', cursive;
+
+}
+p, a, li, ul{
+font-family: 'Lato', sans-serif;
 }

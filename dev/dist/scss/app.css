@@ -4,6 +4,7 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Lato|Maven+Pro|Patua+One|Prata");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -5898,5 +5899,14 @@ a.text-dark:focus, a.text-dark:hover {
   margin-left: 0px;
   margin-right: 0px; }
 
+body {
+  background-color: #ffb74d; }
+
 footer {
-  background-color: #FB8C00; }
+  background-color: #b71c1c; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Prata', cursive; }
+
+p, a, li, ul {
+  font-family: 'Lato', sans-serif; }
