@@ -7,32 +7,34 @@
 }
 
 .pizzeria {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/pizzeria.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/pizzeria.jpg');
   background-size: cover;
 }
 
 .pizza {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/pizza.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/pizza.jpg');
   background-size: cover;
 }
 
 .welcome {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/welcome.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/welcome.jpg');
   background-size: cover;
 }
 
 .menuen {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/menu.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/menu.jpg');
   background-size: cover;
 }
-
+.events{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/menu.jpg');
+  background-size: cover;
+}
 .spacer {
   min-height: 80%;
   min-height: 80vh;
   display: flex;
   align-items: center;
 }
-
 .row {
   margin-left: 0px;
   margin-right: 0px;
@@ -41,9 +43,6 @@
 footer {
   background-color: #b71c1c;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Lato|Maven+Pro|Patua+One|Prata');
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Prata', cursive;
 }

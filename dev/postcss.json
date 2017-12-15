@@ -1,0 +1,10 @@
+{
+    "use": ["postcss-uncss", "cssnano"],
+    "output": "dist/main.css",
+    "autoprefixer": {
+        "browsers": "> 5%"
+    },
+    "postcss-uncss": {
+    "html": ["http://localhost:4000"]
+    }
+}
