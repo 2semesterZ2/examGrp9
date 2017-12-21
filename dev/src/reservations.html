@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +8,10 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%7CPrata">
   <title>Reservations | Fratelli Pizzeria</title>
 </head>
-
 <body>
   <!-- navigation -->
   <nav class="navbar navbar-fixed-top navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img width="50" height="50" src="img/logo-fratelli.png" alt="Fratelli Pizzeria Logo"></a>
+    <a class="navbar-brand" href="index.html"><img width="50" height="50" src="img/logo-fratelli.png" alt="Fratelli Pizzeria Logo"></a>
     <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar">
       <ul class="navbar-nav text-center">
         <li class="nav-item">
@@ -29,10 +27,10 @@
           <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link active" href="reservations.html">Reservations</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="reservations.html">Reservations</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
@@ -48,16 +46,14 @@
   <!--/Navigation -->
     <!--hero -->
 <div class="container-fluid">
-
 <div class="row justify-content-center">
   <div class="col-lg-4 col-md-6 ">
     <h1 class="display-3 text-center">Reserve a table</h1>
 <p>Lunch: Friday-Sunday – Bookings available from 12pm–1:30pm</p>
 <p>Dinner: Monday-Sunday – Bookings available from 6pm–9:30pm</p>
 <p>for bookings on next day, please contact us on the phone: 32184404</p>
-
 <!-- Reservation form -->
-<form>
+<form method="post">
      <h5 class="mb-4">Basic info</h5>
 <div class="form-group">
 <label class="col-form-label" for="name">Name:</label>
@@ -72,16 +68,18 @@
 <input type="email" class="form-control" id="email">
 </div>
 <div class="form-group">
-<label class="col-form-label" for="email">Number of people:</label>
+<label class="col-form-label" for="number">Number of people:</label>
 <input type="nubmer" class="form-control" id="number">
 </div>
-
+<div class="form-group">
+<label class="col-form-label" for="date">Date:</label>
+<input type="date" class="form-control" id="date">
+</div>
      <hr class="my-4">
-
        <div class="form-row">
        <label class="col-lg-12">Select time:</label>
          <div class="form-group col-lg-8">
-         <select class="custom-select form-control" id="exp-month">
+         <select class="custom-select form-control" id="time">
            <option class="op0" value="" selected='selected'></option>
            		  <option class="op1" value="12.00" >12.00</option>
            		  <option class="op1" value="12.15" >12.15</option>
@@ -120,7 +118,7 @@
 
 </select>
 <hr class="mb-4">
-<button type="submit" class="btn btn-primary btn-lg">Register</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#success">Register</button>
          </div>
        </div>
 </div>
@@ -128,8 +126,27 @@
     </div>
 </div>
 </div>
+<!-- Modal -->
+<div class="modal fade" id="success" tabindex="-1" role="dialog" aria-labelledby="success" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">About your reservation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        We will reply to you as soon as possible, thank you for your reservation!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Footer -->
-<footer class="text-light">
+<footer class="text-light pt-5">
   <div class="row">
     <div class="col-md-4">
       <p><strong>Tordenskojdsgade</strong></p>
@@ -152,16 +169,16 @@
       <div class="input-group">
         <input type="text" class="form-control" placeholder="Email">
         <span class="input-group-btn">
-         <button class="btn btn-primary" type="button">Sign up</button>
+         <button class="btn btn-success" type="button">Sign up</button>
        </span>
       </div>
     </div>
   </div>
 </footer>
-  <!--footer -->
+  <!--/footer/ -->
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://www.foodbooking.com/widget/js/ewm2.js" ></script>
+  <script src="https://www.foodbooking.com/widget/js/ewm2.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>

@@ -10,7 +10,6 @@
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/pizzeria.jpg');
   background-size: cover;
 }
-
 .pizza {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/pizza.jpg');
   background-size: cover;
@@ -26,7 +25,7 @@
   background-size: cover;
 }
 .events{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/menu.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0));
   background-size: cover;
 }
 .spacer {
@@ -39,14 +38,22 @@
   margin-left: 0px;
   margin-right: 0px;
 }
-
 footer {
-  background-color: #b71c1c;
+  background-color: #5F021F;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Prata', cursive;
 }
-
+.texture{
+  background-image:url('../img/texture.jpg');
+  background-repeat:repeat;
+}
 p, a, li, ul {
   font-family: 'Lato', sans-serif;
+}
+a{
+  color:#FB8C00;
+}
+a:hover{
+color:#ffb74d
 }

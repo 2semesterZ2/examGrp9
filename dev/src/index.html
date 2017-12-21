@@ -7,12 +7,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="scss/app.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%7CPrata">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Home | Fratelli Pizzeria</title>
 </head>
 <body>
   <!-- navigation -->
   <nav class="navbar navbar-fixed-top navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img width="50" height="50" src="img/logo-fratelli.png" alt="Fratelli Pizzeria Logo"></a>
+    <a class="navbar-brand" href="index.html"><img width="50" height="50" src="img/logo-fratelli.png" alt="Fratelli Pizzeria Logo"></a>
     <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar">
       <ul class="navbar-nav text-center">
         <li class="nav-item">
@@ -28,10 +29,10 @@
           <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="reservations.html">Reservations</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="reservations.html">Reservations</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
@@ -46,44 +47,44 @@
   </nav>
   <!-- /Ordering Button -->
   <!--/Navigation -->
-
+<main>
   <!--hero jumbotron -->
-  <div class="jumbotron pizza jumbotron-fluid bg-info text-white text-center pt-5 spacer">
+  <div class="pizza jumbotron-fluid text-center pt-5 spacer text-white">
     <div class="container">
       <h1 class="display-3">Fratelli Pizzeria</h1>
       <p class="lead">The Best pizza in Aarhus</p>
     </div>
-
   </div>
   <!--/jumobtron-->
   <!-- Text Div -->
-  <div class="row justify-content-center text-center">
+  <div class="row justify-content-center text-center my-5">
     <div class="col-lg-4 col-md-6">
-      <h3 class="mb-4">Our Story</h3>
+      <h2 class="mb-4">Our Story</h2>
       <p>Since the opening of the Fratelli, our vision is still the same - to give the pizza lovers what they crave for. That's why our food is made with utmost love and passion.</p>
-           <a href="about.html" class=" btn btn-lg btn-success mx-auto my-4 text-white">Get to know us closer</a>
+           <a href="about.html" class=" btn btn-lg btn-success mx-auto my-4 ">Get to know us closer</a>
     </div>
   </div>
   <!-- /Text Div -->
   <!-- Menu jumbotron -->
-  <div class="jumbotron menuen jumbotron-fluid bg-info text-white text-center pt-5 spacer">
+  <div class="jumbotron menuen jumbotron-fluid bg-info  text-center text-white pt-5 spacer">
     <div class="container">
-      <h1 class="display-3">Menu</h1>
-         <a href="menu.html" class=" btn btn-lg btn-success mx-auto my-4 text-white">See what's inside</a>
+      <h2 class="display-3">Menu</h2>
+         <a href="menu.html" class=" btn btn-lg btn-success mx-auto my-4 ">See what's inside</a>
     </div>
   </div>
   <!-- Menu jumbotron -->
        <!-- Text Div -->
   <div class="row justify-content-center text-center">
     <div class="col-lg-4 col-md-6">
-      <h3 class="mb-4">Tables</h3>
+      <h2 class="mb-4">Tables</h2>
       <p>Whatever the occasion it is for you, a celebration of an important day or a casual hang out with friends, you are always welcome here at our cozy place. Get the seat on your favourite table in our form </p>
-<a href="reservations.html" class=" btn btn-lg btn-success mx-auto my-4 text-white">Book a table</a>
+<a href="reservations.html" class=" btn btn-lg btn-success mx-auto my-4 ">Book a table</a>
     </div>
   </div>
+    </main>
        <!-- /Text Div -->
 <!-- Footer -->
-<footer class="text-light">
+<footer class="text-light pt-5">
   <div class="row">
     <div class="col-md-4">
       <p><strong>Tordenskojdsgade</strong></p>
@@ -97,16 +98,17 @@
       <p>mandag – onsdag 17:00-21:00</p>
       <p>torsdag – søndag 11:00-21:00</p>
       <p><strong>Follow us on Social Media!</strong></p>
-      <p>Instagram</p>
-      <p>Facebook</p>
+<i class="fa fa-2x fa-facebook-official mx-3" aria-hidden="true"></i>
+<i class="fa fa-2x fa-instagram py-2" aria-hidden="true"></i>
     </div>
+
     <div class="col-md-4 d-none d-md-block">
       <p><strong>Sign Up to receive news from us!</strong></p>
       <p>Sign up to receive information about latest events, news, offers at Fratelli's</p>
       <div class="input-group">
         <input type="text" class="form-control" placeholder="Email">
         <span class="input-group-btn">
-         <button class="btn btn-primary" type="button">Sign up</button>
+         <button class="btn btn-success" type="button">Sign up</button>
        </span>
       </div>
     </div>
