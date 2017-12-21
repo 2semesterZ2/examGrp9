@@ -1,51 +1,59 @@
 @import "bootstrap";
 
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  background-color: $green; }
+.nav-pills {
+  .nav-link.active, .show > .nav-link {
+    background-color: $green;
+  }
+}
 
-  .pizzeria {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/pizzeria.jpg');
-    background-size: cover;
-  }
-  .pizza{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/pizza.jpg');
-    background-size: cover;
-  }
-  .welcome{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/welcome.jpg');
-    background-size: cover;
-  }
-.menuen{
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/menu.jpg');
+.pizzeria {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/pizzeria.jpg');
   background-size: cover;
 }
-.max-width{
-  max-width: 800px;
+.pizza {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/pizza.jpg');
+  background-size: cover;
 }
 
-.spacer{
-min-height: 80%;
-min-height:80vh;
-display: flex;
-align-items: center;
+.welcome {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/welcome.jpg');
+  background-size: cover;
 }
-.row{
+
+.menuen {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/menu.jpg');
+  background-size: cover;
+}
+.events{
+  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0));
+  background-size: cover;
+}
+.spacer {
+  min-height: 80%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.row {
   margin-left: 0px;
   margin-right: 0px;
 }
-body{
-
+footer {
+  background-color: #5F021F;
 }
-footer{
-  background-color: #b71c1c;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Prata', cursive;
 }
-@import url('https://fonts.googleapis.com/css?family=Lato|Maven+Pro|Patua+One|Prata');
-
-h1, h2, h3, h4, h5, h6{
-font-family: 'Prata', cursive;
-
+.texture{
+  background-image:url('../img/texture.jpg');
+  background-repeat:repeat;
 }
-p, a, li, ul{
-font-family: 'Lato', sans-serif;
+p, a, li, ul {
+  font-family: 'Lato', sans-serif;
+}
+a{
+  color:#FB8C00;
+}
+a:hover{
+color:#ffb74d
 }
